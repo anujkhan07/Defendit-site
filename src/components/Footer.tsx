@@ -1,0 +1,144 @@
+import {
+  Facebook,
+  Twitter,
+  Instagram,
+  Linkedin,
+  Mail,
+  MapPin,
+} from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-neutral-950 border-t border-neutral-800">
+      <div className="container mx-auto px-6 lg:px-8 py-16">
+
+        {/* TOP GRID */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+
+          {/* BRAND */}
+          <div className="space-y-4">
+            <h3 className="text-white text-xl font-semibold">Defendit</h3>
+            <p className="text-neutral-400 text-sm leading-relaxed">
+              Defendit is an on-demand professional security platform enabling
+              instant booking of verified bodyguards, bouncers, and security
+              personnel across India.
+            </p>
+          </div>
+
+          {/* SERVICES */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">Services</h4>
+            <ul className="space-y-3 text-sm text-neutral-400">
+              <li>Personal Bodyguards</li>
+              <li>Event Security</li>
+              <li>VIP Protection</li>
+              <li>Corporate Security</li>
+              <li>Visitor & Escort Services</li>
+            </ul>
+          </div>
+
+          {/* COMPANY */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">Company</h4>
+            <ul className="space-y-3 text-sm text-neutral-400">
+              <li>About Us</li>
+              <li>Trust & Compliance</li>
+              <li>Careers</li>
+              <li>Partners</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+
+          {/* CONTACT */}
+          <div>
+            <h4 className="text-white font-semibold mb-4">Contact</h4>
+
+            <div className="space-y-4 text-sm text-neutral-400">
+
+              <div className="flex gap-3 items-start">
+                <MapPin className="h-4 w-4 mt-1 text-neutral-500" />
+                <span>Gurugram, Haryana, India</span>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <Mail className="h-4 w-4 mt-1 text-neutral-500" />
+                <span>support@defendit.in</span>
+              </div>
+
+              <div className="flex gap-3 items-start">
+                <span className="text-neutral-500 mt-[2px]">📞</span>
+                <span>+91 73558 41215</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        {/* DIVIDER */}
+        <div className="mt-14 border-t border-neutral-800 pt-8
+          flex flex-col md:flex-row items-center justify-between gap-6">
+
+          {/* COPYRIGHT */}
+          <p className="text-sm text-neutral-500">
+            © 2025 SCOUTRL Pvt. Ltd. All rights reserved.
+          </p>
+
+          {/* SOCIALS */}
+          <div className="flex gap-4">
+            <a
+              href="#"
+              className="h-10 w-10 rounded-full bg-neutral-900
+              flex items-center justify-center
+              hover:bg-white hover:text-black transition"
+            >
+              <Facebook className="h-4 w-4" />
+            </a>
+
+            <a
+              href="#"
+              className="h-10 w-10 rounded-full bg-neutral-900
+              flex items-center justify-center
+              hover:bg-white hover:text-black transition"
+            >
+              <Twitter className="h-4 w-4" />
+            </a>
+
+            <a
+              href="#"
+              className="h-10 w-10 rounded-full bg-neutral-900
+              flex items-center justify-center
+              hover:bg-white hover:text-black transition"
+            >
+              <Instagram className="h-4 w-4" />
+            </a>
+
+            {/* LINKEDIN – ACTIVE */}
+            <a
+              href="https://www.linkedin.com/company/defendit.in/?viewAsMember=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="h-10 w-10 rounded-full bg-neutral-900
+              flex items-center justify-center
+              hover:bg-white hover:text-black transition"
+            >
+              <Linkedin className="h-4 w-4" />
+            </a>
+          </div>
+
+          {/* LEGAL */}
+          <div className="flex gap-6 text-sm text-neutral-500">
+            <a href="#" className="hover:text-white transition">
+              Privacy Policy
+            </a>
+            <a href="#" className="hover:text-white transition">
+              Terms of Service
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
