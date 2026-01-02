@@ -77,19 +77,3 @@ The experience is similar to ride-hailing platforms, but purpose-built for perso
 
 ---
 
-## 🚀 Getting Started (Run Locally)
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/Defendit-site.git
-
-# Navigate to project folder
-cd Defendit-site
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-
