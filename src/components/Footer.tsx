@@ -41,11 +41,18 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-3 text-sm text-neutral-400">
-              <li>About Us</li>
-              <li>Trust & Compliance</li>
-              <li>Careers</li>
-              <li>Partners</li>
-              <li>Blog</li>
+              <li>
+                <a href="/about" className="hover:text-white transition">About Us</a>
+              </li>
+              <li>
+                <a href="/trust" className="hover:text-white transition">Trust & Compliance</a>
+              </li>
+              <li>
+                <a href="/terms" className="hover:text-white transition">Terms of Service</a>
+              </li>
+              <li>
+                <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
+              </li>
             </ul>
           </div>
 
@@ -127,10 +134,18 @@ const Footer = () => {
 
           {/* LEGAL */}
           <div className="flex gap-6 text-sm text-neutral-500">
-            <a href="#" className="hover:text-white transition">
+            {/* Duplicate links removed as requested to be in main list, but user said "acc to website" so maybe keep bottom ones? 
+                 The user said: "add these allso in footer ... and remove Careers Partners Blog". 
+                 It seems they want the main vertical list to have these. 
+                 I'll remove the bottom right ones if they are redundant, or just point them to the same place. 
+                 The request "add these allso in footer" implies the vertical list. 
+                 Let's keep the bottom bar simple or remove the links if they are duplicates. 
+                 I'll keep them but point them correctly for now.
+             */}
+            <a href="/privacy" className="hover:text-white transition">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-white transition">
+            <a href="/terms" className="hover:text-white transition">
               Terms of Service
             </a>
           </div>
