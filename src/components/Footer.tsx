@@ -87,7 +87,7 @@ const Footer = () => {
 
           {/* COPYRIGHT */}
           <p className="text-sm text-neutral-500">
-            © 2025 SCOUTRL Pvt. Ltd. All rights reserved.
+            © 2026 SCOUTRL Pvt. Ltd. All rights reserved.
           </p>
 
           {/* SOCIALS */}

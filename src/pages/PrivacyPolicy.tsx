@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
 
         {/* FOOTER */}
         <p className="text-neutral-400 text-sm pt-8 border-t border-neutral-800">
-          © 2025 SCOUTRL Pvt. Ltd. | Defendit. All rights reserved.
+          © 202 SCOUTRL Pvt. Ltd. | Defendit. All rights reserved.
         </p>
 
       </div>
