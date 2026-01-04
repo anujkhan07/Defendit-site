@@ -49,7 +49,7 @@ const Navbar = () => {
                 src={defenditLogo}
                 alt="Defendit"
                 className="
-    h-14 md:h-16
+    h-18 md:h-24
     w-auto
     opacity-95
     hover:opacity-100

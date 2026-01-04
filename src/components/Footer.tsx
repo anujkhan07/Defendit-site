@@ -6,6 +6,7 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
+import defenditLogo from "@/assets/defendit-logo.png";
 
 const Footer = () => {
   return (
@@ -17,7 +18,11 @@ const Footer = () => {
 
           {/* BRAND */}
           <div className="space-y-4">
-            <h3 className="text-white text-xl font-semibold">Defendit</h3>
+            <img
+              src={defenditLogo}
+              alt="Defendit"
+              className="h-24 w-auto drop-shadow-[0_0_8px_rgba(255,255,255,0.15)] opacity-95"
+            />
             <p className="text-neutral-400 text-sm leading-relaxed">
               Defendit is an on-demand professional security platform enabling
               instant booking of verified bodyguards, bouncers, and security
