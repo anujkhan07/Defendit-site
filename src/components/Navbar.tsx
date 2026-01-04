@@ -35,7 +35,7 @@ const Navbar = () => {
     <>
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300
-        ${scrolled
+        ${scrolled || isOpen
             ? "bg-neutral-950/90 backdrop-blur-xl shadow-lg border-b border-neutral-800"
             : "bg-transparent"
           }`}
@@ -49,7 +49,7 @@ const Navbar = () => {
                 src={defenditLogo}
                 alt="Defendit"
                 className="
-    h-18 md:h-24
+    h-14 md:h-24
     w-auto
     opacity-95
     hover:opacity-100

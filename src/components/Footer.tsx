@@ -21,7 +21,7 @@ const Footer = () => {
             <img
               src={defenditLogo}
               alt="Defendit"
-              className="h-24 w-auto drop-shadow-[0_0_8px_rgba(255,255,255,0.15)] opacity-95"
+              className="h-20 md:h-24 w-auto drop-shadow-[0_0_8px_rgba(255,255,255,0.15)] opacity-95"
             />
             <p className="text-neutral-400 text-sm leading-relaxed">
               Defendit is an on-demand professional security platform enabling
